@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailService", "MailService\MailService.csproj", "{FBD5310E-6C21-4239-AE0A-F9893FCBE96D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper_DTO", "AutoMapper\AutoMapper_DTO.csproj", "{25E0CD24-AAD3-45C2-A1AE-7C00608D700E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapper_DTO", "AutoMapper\AutoMapper_DTO.csproj", "{25E0CD24-AAD3-45C2-A1AE-7C00608D700E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValdation_1", "FluentValdation_1\FluentValdation_1.csproj", "{9AAFEE99-BF0F-4732-AAF3-FE6D40316841}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{25E0CD24-AAD3-45C2-A1AE-7C00608D700E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25E0CD24-AAD3-45C2-A1AE-7C00608D700E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25E0CD24-AAD3-45C2-A1AE-7C00608D700E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AAFEE99-BF0F-4732-AAF3-FE6D40316841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAFEE99-BF0F-4732-AAF3-FE6D40316841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAFEE99-BF0F-4732-AAF3-FE6D40316841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAFEE99-BF0F-4732-AAF3-FE6D40316841}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
