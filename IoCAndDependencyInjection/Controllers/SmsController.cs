@@ -8,7 +8,7 @@ namespace IoCAndDependencyInjection.Controllers
     [ApiController]
     public class SmsController : ControllerBase
     {
-        private readonly ISmsService _smsService;   
+        private readonly ISmsService _smsService;  
         public SmsController(ISmsService smsService)
         {
             _smsService = smsService;   
