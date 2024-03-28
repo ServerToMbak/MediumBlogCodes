@@ -5,7 +5,7 @@ public class Program
     private static void Main(string[] args)
     {
 
-        // Eating on Reasturan A
+       
         RestaurantFactory restaurantA = new RestaurantA();
         restaurantA.OrderBurger("veggie");
         restaurantA.OrderPizza();
@@ -16,7 +16,15 @@ public class Program
         IBurger burger = restaurantB.OrderBurger("veggie");
         restaurantB.OrderPizza();
 
+
+        //RestaurantFactory restaurantA = new RestaurantC();
+        //restaurantA.OrderBurger("veggie");
+
+
+        //// Eating on Restaurant B
+        //RestaurantFactory restaurantB = new RestaurantB();
+        //restaurantB.OrderBurger("Cheese");
     }
 
-   
+
 }
